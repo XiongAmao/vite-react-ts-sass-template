@@ -12,5 +12,5 @@ module.exports = {
   rules: {
     'react-refresh/only-export-components': 'warn',
   },
-  ignorePatterns: ['.eslintrc.cjs'],
+  ignorePatterns: ['.eslintrc.cjs', 'lint-staged.config.cjs'],
 };
